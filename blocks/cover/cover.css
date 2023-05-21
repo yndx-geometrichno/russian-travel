@@ -1,0 +1,20 @@
+.cover {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  vertical-align: middle;
+  max-width: calc(100% - 96px);
+  max-height: 740px;
+  margin: 0 auto;
+  background-image: url('../../images/cover-trains.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 0;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.cover .overlay:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,9 @@
+.link {
+  color: var(--white);
+  font-family: 'Inter';
+  text-decoration: none;
+}
+
+.link:hover {
+  opacity: 0.8;
+}
