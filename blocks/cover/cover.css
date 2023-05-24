@@ -15,9 +15,3 @@
 .cover .overlay:hover {
   opacity: 0.8;
 }
-
-@media screen and (max-width: 400px) {
-  .cover {
-
-  }
-}

@@ -29,6 +29,7 @@
 @import './../blocks/intro/intro.css';
 @import './../blocks/intro/__list/intro__list.css';
 @import './../blocks/intro/__list-item/intro__list-item.css';
+@import './../blocks/intro/__list-text/_font/intro__list-text_font_bold.css';
 @import './../blocks/intro/__subtitle/intro__subtitle.css';
 @import './../blocks/intro/__title/intro__title.css';
 
