@@ -12,3 +12,7 @@
 ## Системные требования
 
 Спецальные требования отсутствуют.
+
+## Ссылка на проект
+
+https://yndx-geometrichno.github.io/russian-travel/
