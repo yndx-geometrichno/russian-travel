@@ -10,3 +10,36 @@
 .cover__subtitle:hover ~ .overlay {
   opacity: 0.8;
 }
+
+@media screen and (max-width: 1024px) {
+  .cover__subtitle {
+    margin-bottom: 195px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__subtitle {
+    margin-bottom: 115px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .cover__subtitle {
+    margin-bottom: 8%;
+  }
+}
+
+@media screen and (max-width: 507px) {
+  .cover__subtitle {
+    margin-bottom: 10%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .cover__subtitle {
+    margin-bottom: 33px;
+    font-size: 14px;
+    line-height: 1.15;
+    max-width: calc(100% - 32px);
+  }
+}

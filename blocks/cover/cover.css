@@ -1,20 +1,23 @@
 .cover {
   position: relative;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   vertical-align: middle;
-  max-width: calc(100% - 96px);
-  max-height: 740px;
+  max-width: calc(1280px - 96px);
   margin: 0 auto;
   background-image: url('../../images/cover-trains.jpg');
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
   z-index: 0;
-  color: var(--white);
-  text-decoration: none;
 }
 
 .cover .overlay:hover {
   opacity: 0.8;
+}
+
+@media screen and (max-width: 400px) {
+  .cover {
+
+  }
 }

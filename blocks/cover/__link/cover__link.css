@@ -1,0 +1,14 @@
+.cover__link {
+  color: var(--white);
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.cover__link:hover ~ .overlay {
+  opacity: 0.8;
+}

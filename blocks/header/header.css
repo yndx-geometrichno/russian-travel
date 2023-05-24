@@ -6,3 +6,17 @@
   padding-top: 28px;
   padding-bottom: 56px;
 }
+
+@media screen and (max-width: 768px) {
+  .header {
+    max-width: calc(100% - 48px);
+    padding-bottom: 48px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    max-width: calc(100% - 32px);
+    padding-top: 16px;
+  }
+}
