@@ -3,4 +3,5 @@
   background-color: var(--darkgray);
   color: var(--white);
   text-rendering: optimizeLegibility;
+  min-width: 320px;
 }

@@ -17,8 +17,8 @@
   .footer {
     flex-direction: column;
     padding-top: 64px;
-    justify-content: none;
     gap: 48px;
     padding-left: 16px;
+    max-width: 100%;
   }
 }

@@ -7,7 +7,7 @@
   z-index: 1;
 }
 
-.cover__subtitle:hover ~ .overlay {
+.cover__subtitle:hover ~ .cover::before {
   opacity: 0.8;
 }
 

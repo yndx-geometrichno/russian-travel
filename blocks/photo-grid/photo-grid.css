@@ -8,14 +8,14 @@
   justify-items: center;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .photo-grid {
     max-width: 928px;
     gap: 14px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .photo-grid {
     max-width: calc(100% - 48px);
     padding-bottom: 88px;

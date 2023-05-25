@@ -11,25 +11,31 @@
     <div class="page__container">
       <header class="header">
         <div class="header__logo"></div>
-        <div class="header__lang-links">
-          <a href="#" class="header__lang-link link header__lang-link_active"
-            >Ru</a
-          >
-          <a href="#" class="header__lang-link link">En</a>
-        </div>
+        <ul class="header__lang-links">
+          <li class="header__link-container">
+            <a href="#" class="header__lang-link link header__lang-link_active"
+              >Ru</a
+            >
+          </li>
+          <li class="header__link-container">
+            <a href="#" class="header__lang-link link">En</a>
+          </li>
+        </ul>
       </header>
       <main class="content">
         <section class="lead">
-          <h1 class="lead__title">Путешествия по России</h1>
+          <h1 class="lead__title">Путешествия по&nbsp;России</h1>
           <p class="lead__subtitle">
             Настоящая страна не в выпусках новостей, а здесь.
           </p>
-          <img
-            src="/russian-travel/images/lead-polka.jpg"
-            alt="Девушка спит на баковой полке плацкартного вагона."
-            class="lead__image"
-          />
-          <p class="lead__caption">ваша полка — верхняя</p>
+          <figure class="lead__image-container">
+            <img
+              src="./images/lead-polka.jpg"
+              alt="Девушка спит на баковой полке плацкартного вагона."
+              class="lead__image"
+            />
+            <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+          </figure>
         </section>
         <section class="intro">
           <h2 class="intro__title">Чего мы там не видели?</h2>
@@ -47,38 +53,38 @@
           </p>
           <ul class="intro__list">
             <li class="intro__list-item">
-              <span class="intro__list-text intro__list-text_font_bold"
+              <span class="intro__list-text"
               >Часовых поясов</span
               >
               11
             </li>
             <li class="intro__list-item">
-              <span class="intro__list-text intro__list-text_font_bold"
+              <span class="intro__list-text"
                 >Объектов природного наследия ЮНЕСКО</span
               >
               12
             </li>
             <li class="intro__list-item">
-              <span class="intro__list-text intro__list-text_font_bold"
+              <span class="intro__list-text"
                 >Объектов культурного наследия ЮНЕСКО</span
               >
               16
             </li>
             <li class="intro__list-item">
-              <span class="intro__list-text intro__list-text_font_bold"
+              <span class="intro__list-text"
                 >Природных заповедников</span
               >
               105
             </li>
             <li class="intro__list-item">
-              <span class="intro__list-text intro__list-text_font_bold"
+              <span class="intro__list-text"
                 >Аэропортов</span
               >
               241
             </li>
           </ul>
         </section>
-        <div class="photo-grid">
+        <section class="photo-grid">
           <img
             src="./images/photo-grid-train.jpg"
             alt="Фото на озеро из окна поезда."
@@ -139,12 +145,12 @@
             alt="Вид на горы в тумане в природном парке Ергаки."
             class="photo-grid__item"
           />
-        </div>
+        </section>
         <section class="places">
-          <div class="place">
+          <article class="place">
             <h2 class="place__title">Куршская коса</h2>
             <div class="place__website">
-              <div class="place__website-heading">URL</div>
+              <p class="place__website-heading">url</p>
               <a
                 href="http://park-kosa.ru"
                 class="place__link link"
@@ -173,11 +179,11 @@
                 прохладного моря.
               </p>
             </div>
-          </div>
-          <div class="place">
+          </article>
+          <article class="place">
             <h2 class="place__title">Кольский</h2>
             <div class="place__website">
-              <div class="place__website-heading">URL</div>
+              <p class="place__website-heading">url</p>
               <a
                 href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
                 class="place__link link"
@@ -206,11 +212,11 @@
                 с билетом в Мурманск.
               </p>
             </div>
-          </div>
-          <div class="place">
+          </article>
+          <article class="place">
             <h2 class="place__title">Алтай</h2>
             <div class="place__website">
-              <div class="place__website-heading">URL</div>
+              <p class="place__website-heading">url</p>
               <a
                 href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ"
                 class="place__link link"
@@ -239,11 +245,11 @@
                 края.
               </p>
             </div>
-          </div>
-          <div class="place">
+          </article>
+          <article class="place">
             <h2 class="place__title">Зимний Байкал</h2>
             <div class="place__website">
-              <div class="place__website-heading">URL</div>
+              <p class="place__website-heading">url</p>
               <a
                 href="https://vk.com/baikalmile"
                 class="place__link link"
@@ -270,11 +276,11 @@
                 «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
               </p>
             </div>
-          </div>
-          <div class="place">
+          </article>
+          <article class="place">
             <h2 class="place__title">Карелия</h2>
             <div class="place__website">
-              <div class="place__website-heading">URL</div>
+              <p class="place__website-heading">url</p>
               <a
                 href="http://vodlozero.ru"
                 class="place__link link"
@@ -300,7 +306,7 @@
                 помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
               </p>
             </div>
-          </div>
+          </article>
         </section>
         <section class="cover">
           <a
@@ -314,33 +320,32 @@
               Байкала на электричках.
             </p>
           </a>
-          <div class="overlay"></div>
         </section>
       </main>
       <footer class="footer">
         <nav class="footer__nav">
           <ul class="footer__links">
-            <li class="footer__link">
+            <li class="footer__link-container">
               <a href="https://yandex.ru/maps" class="link" target="_blank"
                 >Карты</a
               >
             </li>
-            <li class="footer__link">
+            <li class="footer__link-container">
               <a href="https://yandex.ru/pogoda" class="link" target="_blank"
                 >Погода</a
               >
             </li>
-            <li class="footer__link">
+            <li class="footer__link-container">
               <a href="https://rasp.yandex.ru" class="link" target="_blank"
                 >Расписание</a
               >
             </li>
-            <li class="footer__link">
+            <li class="footer__link-container">
               <a href="https://calendar.yandex.ru" class="link" target="_blank"
                 >Календарь</a
               >
             </li>
-            <li class="footer__link">
+            <li class="footer__link-container">
               <a href="https://travel.yandex.ru" class="link" target="_blank"
                 >Путешествия</a
               >
