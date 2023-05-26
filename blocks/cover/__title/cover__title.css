@@ -8,17 +8,13 @@
   z-index: 1;
 }
 
-.cover__title:hover ~ .cover::before {
-  opacity: 0.8;
-}
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .cover__title {
     margin-top: 195px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .cover__title {
     margin-top: 115px;
   }
@@ -30,14 +26,13 @@
   }
 }
 
-@media screen and (max-width: 507px) {
+@media screen and (max-width: 523px) {
   .cover__title {
     font-size: 42px;
-    margin-top: 15%;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
   .cover__title {
     font-size: 32px;
     line-height: 1.1;

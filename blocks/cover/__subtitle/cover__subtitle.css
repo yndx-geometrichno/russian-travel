@@ -7,10 +7,6 @@
   z-index: 1;
 }
 
-.cover__subtitle:hover ~ .cover::before {
-  opacity: 0.8;
-}
-
 @media screen and (max-width: 1024px) {
   .cover__subtitle {
     margin-bottom: 195px;
@@ -35,7 +31,7 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
   .cover__subtitle {
     margin-bottom: 33px;
     font-size: 14px;

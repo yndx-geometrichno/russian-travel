@@ -8,7 +8,3 @@
   align-items: center;
   z-index: 2;
 }
-
-.cover__link:hover ~ .cover::before {
-  opacity: 0.8;
-}
